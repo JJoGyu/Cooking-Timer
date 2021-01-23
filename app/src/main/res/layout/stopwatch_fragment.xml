@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="20">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="19">
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:textSize="20dp"
+        android:id="@+id/textView"
+        android:fontFamily="casual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="TextView"/>
+
+    <TextView
+        android:layout_marginTop="75dp"
+        android:layout_gravity="center"
+        android:textSize="40dp"
+        android:fontFamily="casual"
+        android:textColor="@color/yellowDark"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"/>
+
+    <Button
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:fontFamily="casual"
+        android:textColor="@color/yellowDark"
+        android:textStyle="bold"
+        android:id="@+id/stopwatch_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        style="@style/StopButton"
+        android:text="stop"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-xxxxxx"/>
+
+    </LinearLayout>
+
+</LinearLayout>

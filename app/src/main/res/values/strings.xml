@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Cooking Timer</string>
+    <string name="new_alarm_title">Food</string>
+    <string name="new_alarm_text">Check your meal.</string>
+    <string name="adaptive_banner_ad_unit_id">adaptive banner</string>
+    <string name="notification_title">alarm</string>
+    <string name="notification_message">alarm is on</string>
+    <string name="ticker_text">click</string>
+    <string name="local_service_started">service started</string>
+    <string name="local_service_stopped">service stopped</string>
+    <string name="channel_name">Cooking Timer Channel</string>
+</resources>
